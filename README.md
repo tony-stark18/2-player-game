@@ -8,10 +8,29 @@ This assignment involves creating a two-player Tic-Tac-Toe game. The game should
 
 Tic-Tac-Toe is a classic game played on a 3x3 grid by two players who alternately place their marks (X or O) in empty squares. The objective is to be the first to form a horizontal, vertical, or diagonal line with three of one's own marks.
 
+## Reference Screenshots
+
+Initial Screen:
+![Initial Screen](/public/initial-screen.png)
+
+Player X's turn:
+![Player X's turn](/public/after-player-x-selected.png)
+
+Player O's turn:
+![Player O's turn](/public/player-o-selected.png)
+
+After the game is won:
+![Player X wins](/public/player-x-wins.png)
+
+After the game is drawn:
+![Draw](/public/draw.png)
+
 ## Requirements
 
 - **Turn-Based Play**: Players should be able to take turns placing their marks (X or O) on the board.
 - **Win Detection**: The game should detect when a player has won by forming a horizontal, vertical, or diagonal line with three of their marks.
+  - After the win, the game should stop and display the winner.
+  - Only resetting, will aloow the game to be started
 - **Game Status Display**: Display the current game status at the top of the interface, indicating whose turn it is, announcing the winner, or declaring a draw if applicable.
 - **Reset Functionality**: Include a "Reset" button that allows players to restart the game at any time.
 
