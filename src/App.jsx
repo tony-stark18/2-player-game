@@ -3,7 +3,7 @@ import { useState } from "react";
 
 function App() {
   const n = 3;
-  const [turn, setTurn] = useState(false); // false = 'X', true = 'O'
+  const [turn, setTurn] = useState(false);
   const [grid, setGrid] = useState(
     Array.from({ length: n }, () => Array(n).fill(""))
   );
