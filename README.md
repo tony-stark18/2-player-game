@@ -41,7 +41,10 @@ Please submit your completed project by:
 2. Including comments in your code explaining your implementation details
 3. Ensuring your code runs without errors and produces a functional Tic-Tac-Toe game
 4. Submitting the link to your repository
-5. Add your email-id, name and roll number in the README.md file
+5. Add your email-id, name and roll number in the README.md in the below format
+   - Name: <your name>
+   - Email-id: <your email-id>
+   - Roll Number: <your roll number>
 
 ## Important Notes
 
