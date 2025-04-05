@@ -33,6 +33,19 @@ Tic-Tac-Toe is a classic game played on a 3x3 grid by two players who alternatel
    ```
    This will start the server and open the application in your default browser.
 
-## Submission
+## Submission Guidelines
 
-Please submit your completed project
+Please submit your completed project by:
+
+1. Pushing your changes to the forked repository in GitHub Codespaces
+2. Including comments in your code explaining your implementation details
+3. Ensuring your code runs without errors and produces a functional Tic-Tac-Toe game
+4. Submitting the link to your repository
+5. Add your email-id, name and roll number in the README.md file
+
+## Important Notes
+
+- Ensure your code is clean and well-documented.
+- Test your game thoroughly to ensure all functionalities work as expected.
+- Make sure your code is free of syntax errors and runs without issues.
+- Use the provided guidelines and requirements to complete the assignment.
