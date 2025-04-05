@@ -4,8 +4,8 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: rgba(40, 40, 40, 0.87);
+  background-color: #e5e5e5;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -31,7 +31,7 @@ body {
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 3.5em;
   line-height: 1.1;
 }
 
@@ -65,4 +65,26 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+.cell {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #4f436e;
+  border: 1px solid whitesmoke;
+  color: #fff;
+  font-size: 50px;
+  box-shadow: 0px 4px 6px rgba(36, 36, 36, 0.708);
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+}
+.status {
+  font-size: 50px;
+  font-weight: bold;
+  color: #94229e;
 }
